@@ -1,15 +1,16 @@
-const Product = () => {
-    return (
-        <div>
-            <h1>
-                Produtos
-            </h1>
-            <p>
-                Sobre os produtos
-            </p>
+import NavBar from '@/components/navbar'
+import Link from 'next/link'
 
+const Products = () => {
+    return (
+        <>
+        <div>
+            <h1>Página de Produtos</h1>
+            <NavBar/>
         </div>
+        </>
+
     )
 }
 
-export default Product
+export default Products

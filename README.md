@@ -45,8 +45,19 @@ Aula 06: Navegado entre páginas
 - Semelhante ao do React Router, porém este é Next;
 - Precisamos passar o link da página pela prop href do componente;
 
+Aula 07: Novos Componentes
 
-
+- É possível criar componentes da mesma maneira que em React;
+- Uma convenção mito utilizada é criar uma pasta de componentes e colocá-los lá;
+- Não confundir pages com components
 
 06/04/2023
-18:00 -
+18:00 - 18:18
+18:30 - 19:30
+
+Aula 07: Componente de layout
+
+- Componentes sempre se repetem
+- Navbar e footer
+- _app.tsx
+- npm run dev (comando para iniciar o projeto)

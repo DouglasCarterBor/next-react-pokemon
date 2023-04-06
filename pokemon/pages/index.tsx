@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
+import NavBar from '@/components/navbar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,7 +18,8 @@ export default function Home() {
       </Head>
      {/* <main className={styles.main}> */}
      <main>
-     <h1>Hello World</h1>
+     <h1>Hello World Next.js</h1>
+     <NavBar/>
         {/*
         <div className={styles.description}>
           <p>
