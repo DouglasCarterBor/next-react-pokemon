@@ -6,7 +6,7 @@ https://www.youtube.com/watch?v=XHrbg2iYNCg&list=PLnDvRpP8BnezfJcfiClWskFOLODeqI
 2. npm run dev
 
 Aula 01: Introdução
-Aula 02: Instalação e primeira alteração:
+Aula 02: Instalação e primeira alteração
 Aprendi que Next.js utiliza o react e tem uma estrutura de componentes.
 Ansioso para hospedar está página e verificar a performance na Web.
 Aula 03: Estrutura de Pastas
@@ -55,9 +55,53 @@ Aula 07: Novos Componentes
 18:00 - 18:18
 18:30 - 19:30
 
-Aula 07: Componente de layout
+Aula 08: Componente de layout
 
 - Componentes sempre se repetem
 - Navbar e footer
 - _app.tsx
 - npm run dev (comando para iniciar o projeto)
+
+19:30 - 18:00
+
+Aula 09: CSS e Next.js
+
+- Duas formas
+- Estilo Global e CSS Modular
+- basta criar um arquivo .css com o nome do componente, exemplo> Home.module.css
+
+21:16 - 20:30
+10:00 - 10:30
+
+Aula 10: Meta dados no Next
+
+- Podemos inserir informações como title e outras meta tags a partir de componente especial chamado Head
+- Dentro dele passamos parâmetros que queremos configurar para cada página
+- Dá para ter uma Head em cada página, com descrição e Favicon
+
+21:56 - 22:20
+
+Aula 11: Inserindo assets
+
+- Os assets ficam sempre na pasta public
+- Para linkar partir do public
+- Images dentro de public
+- Background images funcionam da mesma maneira
+
+Aprendi a colocar imagens no site
+
+07:44 - 08:30
+
+Aula 12: Resgate de dados dinâmicos
+
+- Pra pegar os dados dinâmicos getStaticProps
+- Utilizada na própria página
+- Ela deve retornar um objeto com dados
+- Sensação de carregamento instantâneo
+- Pre-rendering
+
+jsonplaceholder.typicode.com/todos
+
+21:49 - 22:38
+
+

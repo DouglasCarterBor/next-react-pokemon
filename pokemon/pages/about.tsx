@@ -1,11 +1,9 @@
-import NavBar from '@/components/navbar'
-import Link from 'next/link'
+import styles from '@/styles/Home.module.css'
 
 const AboutPage = () => {
     return (
       <div>
-        <h1>About Page</h1>
-        <NavBar/>
+        <h1 className={styles.title}>About Page</h1>
       </div>
     )
   }
