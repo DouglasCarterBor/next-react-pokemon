@@ -142,3 +142,11 @@ Aula 16: Inspecionando o build
 
 21:00 - 21:47
 
+Warning: For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'yarn add sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+
+Explicação: Esta mensagem é um aviso de que a biblioteca "sharp" não está instalada e recomendada para a otimização de imagens em produção no Next.js. A otimização de imagens é uma funcionalidade do Next.js que reduz o tamanho dos arquivos de imagem, melhorando o desempenho e reduzindo o tempo de carregamento da página.
+
+O "sharp" é uma biblioteca que o Next.js pode usar para otimizar imagens. Se a biblioteca "sharp" não estiver instalada, o Next.js ainda otimizará as imagens, mas a otimização pode não ser tão eficiente quanto com o "sharp". O aviso recomenda a instalação do pacote "sharp" para obter a melhor otimização de imagem em produção.
+
+yarn add sharp
