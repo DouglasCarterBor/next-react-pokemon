@@ -104,4 +104,41 @@ jsonplaceholder.typicode.com/todos
 
 21:49 - 22:38
 
+Aula 13: Rotas dinâmicas
+
+- Podemos criar rotas dinâmicas, ou seja, que são geradas pelo próprio Next
+- Para isso criar um arquivo padrão: [id].js
+- Onde Id seria o dado que é alterado em cada página
+- Desta maneira temos páginas que são criadas automaticamente, melhor para quando não temos controle de quantas precisaremos.
+- Rotas dinâmicas partindo de rotas dinâmicas
+
+Aprendi a criar uma rota dinâmica baseada em uma rota dinâmica
+
+15:00 - 16:00
+
+Aula 14: Rotas dinâmicas com dados reais
+
+- Para exibir dados nestas rotas, vamos precisar utilizar o método getStaticProps
+- E também getStaticPaths, este vai fazer a criação das páginas dinêmicas em HTML
+- Agora podemos acessar o objeto com os dados dentro do componente da página
+
+Aprendi um pouco mais sobre getStaticProps e getStaticPaths, mas ainda bem confuso.
+
+16:00 - 17:14
+
+Aula 15: Página 404 customizada
+
+- Para criar uma página 404 customizada é simples!
+- Precisamos criar um arquivo 404.js em pages;
+- E a partir dele desenvolvemos os componentes e estilos;
+
+13:00 - 14:00
+
+Aula 16: Inspecionando o build
+
+- npm run build
+- O Next mostra como os arquivos foram gerados
+- Nos dando detales importantes sobre nosso projeto
+
+21:00 - 21:47
 
